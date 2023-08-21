@@ -42,7 +42,7 @@ module.exports.getDeliveryMethod = function getDeliveryMethod () {
       }
       res.status(200).json({ status: 'success', data: sendMethod })
     } else {
-      res.status(400).json({ status: 'error' })
+      res.status(400).json({ status: 'error!!!' })
     }
   }
 }
