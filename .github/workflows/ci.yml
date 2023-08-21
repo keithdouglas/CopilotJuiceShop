@@ -26,7 +26,7 @@ jobs:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js 18"
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: 18
       - name: "Install CLI tools"
@@ -58,7 +58,7 @@ jobs:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js 18"
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: 18
       - name: "Install CLI tools"
@@ -79,7 +79,7 @@ jobs:
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js ${{ matrix.node-version }}"
         if: github.repository == 'juice-shop/juice-shop' || github.repository != 'juice-shop/juice-shop' && matrix.os == 'ubuntu-latest' && matrix.node-version == '16'
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: ${{ matrix.node-version }}
       - name: "Install CLI tools"
@@ -119,7 +119,7 @@ jobs:
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js ${{ matrix.node-version }}"
         if: github.repository == 'juice-shop/juice-shop' || github.repository != 'juice-shop/juice-shop' && matrix.os == 'ubuntu-latest' && matrix.node-version == '16'
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: ${{ matrix.node-version }}
       - name: "Install CLI tools"
@@ -185,7 +185,7 @@ jobs:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js 18"
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: 18
       - name: "Install CLI tools"
@@ -221,7 +221,7 @@ jobs:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js 18"
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: 18
       - name: "Install CLI tools"
@@ -262,7 +262,7 @@ jobs:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
       - name: "Use Node.js 18"
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e #v1: v2.x available
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d #v1: v2.x available
         with:
           node-version: 18
       - name: "Install CLI tools"
